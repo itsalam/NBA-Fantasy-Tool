@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Fantasy Assistant</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <h1>NBA Fantasy 9-Cat Assistant Tool</h1>
+    <h2>Enter your and your opponents team</h2>
+    <fieldset>
+
+
+        <form>
+            <div id="columns">
+                <fieldset>
+                    <legend>Team A</legend>
+                    <div class="form-group">
+                        <label>Player</label>
+                        <div>
+                            <input id="playerNameA" name="playerNameA" type="text" placeholder="Player name...">
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Team B</legend>
+                    <div class="form-group">
+                        <label>Player</label>
+                        <div>
+                            <input id="playerNameB" name="playerNameB" type="text" placeholder="Player name...">
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+
+
+            <br>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="btnSubmit"></label>
+                <div class="col-md-4">
+                    <button id="btnSubmit" name="btnSubmit" class="btn btn-success"
+                        onclick="submitPost()">Submit</button>
+                </div>
+            </div>
+        </form>
+    </fieldset>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
