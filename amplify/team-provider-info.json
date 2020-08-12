@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-nbafantasytool-dev-173754-authRole",
+            "UnauthRoleArn": "arn:aws:iam::374732119510:role/amplify-nbafantasytool-dev-173754-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::374732119510:role/amplify-nbafantasytool-dev-173754-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-nbafantasytool-dev-173754-deployment",
+            "UnauthRoleName": "amplify-nbafantasytool-dev-173754-unauthRole",
+            "StackName": "amplify-nbafantasytool-dev-173754",
+            "StackId": "arn:aws:cloudformation:us-west-2:374732119510:stack/amplify-nbafantasytool-dev-173754/10d1daa0-dc34-11ea-9868-0ae10a278694",
+            "AmplifyAppId": "dvvhabdpmok1k"
+        }
+    }
+}
