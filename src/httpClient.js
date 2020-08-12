@@ -1,11 +1,13 @@
 import axios from 'axios';
-const url = "https://api.sportsdata.io/v3/nba/scores/json/Player/20000571";
 
 
-export function getPlayerData() {
+export function getPlayerDataById(id) {
+    
+    const url = `https://api.sportsdata.io/v3/nba/scores/json/Player/${id}`;
+    console.log(process.env.API-KEY)
     axios.get(url, {
         headers: {
-            "Ocp-Apim-Subscription-Key": "57dd407d1ef744858ce498a1e9f8d8fe"
+            "Ocp-Apim-Subscription-Key": process.env.API-KEY
         }
     })
         .then(function (response) {
@@ -18,3 +20,7 @@ export function getPlayerData() {
             // always executed
         });
 }
+
+// Make a .env file on the root folder and paste this, and delete this comment after 
+
+// API-KEY=57dd407d1ef744858ce498a1e9f8d8fe

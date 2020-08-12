@@ -22,5 +22,5 @@ const QueryResult = document.getElementById("QueryResult");
 
 MutationButton.addEventListener("click", (evt) => {
   evt.preventDefault();
-  getPlayerData();
+  getPlayerData(20000571);
 });
